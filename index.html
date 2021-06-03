@@ -11,33 +11,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XF5T7W3W8H"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XF5T7W3W8H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-XF5T7W3W8H');
-</script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-5CTWNJ8');</script>
+        gtag('config', 'G-XF5T7W3W8H');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5CTWNJ8');</script>
     <!-- End Google Tag Manager -->
 
-
-
-
-
-
-    <title> #แคมเปญเด็กหอไม่ง้อตู้เย็น  </title>
+    <title> #แคมเปญเด็กหอไม่ง้อตู้เย็น </title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+        }
+
+        body {
+            overflow-x: hidden;
         }
 
         html {
@@ -109,6 +111,9 @@
             background-color: white;
             font-size: 20px;
             text-align: center;
+            /* Tik add */
+            width: 300px;
+            margin-left: 30px;
         }
 
         hr {
@@ -145,6 +150,8 @@
             position: relative;
             justify-content: center;
             min-height: 100vh;
+            /* Tik add */
+            gap: 0px;
             color: black;
 
         }
@@ -176,6 +183,8 @@
         .hero h3 {
             font: normal 26px Prompt;
             margin-bottom: 20px;
+            /*Tik add */
+            width: 500px;
         }
 
         .hero a.btn {
@@ -186,6 +195,45 @@
 
         }
 
+        /* Tik add */
+        .hero img.here {
+            margin-left: 336px;
+            margin-top: -35px;
+        }
+
+        @media (max-width: 768px) {
+            html {
+                width: 100vw;
+                overflow-x: hidden;
+            }
+
+            .hero {
+                width: 100%;
+                margin: 0 auto;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero h3 {
+                font-size: 20px;
+            }
+
+            .hero a.btn {
+                padding: 15px 40px;
+            }
+
+            .hero .background-image {
+                background-position: center;
+                background-size: cover;
+                width: 100%;
+                height: 100%;
+
+            }
+        }
 
         /*-------------
  	    Contact
@@ -370,6 +418,9 @@
             text-align: center;
             align-items: center;
             padding-top: 40px;
+            /* add */
+            padding-bottom: 0px;
+            height: 740px;
         }
 
         .section3 h1 {
@@ -387,6 +438,11 @@
         }
 
         @media (max-width: 768px) {
+            section {
+                display: flex;
+                flex-direction: column;
+
+            }
 
             .section3 {
                 min-height: 600px;
@@ -404,26 +460,6 @@
                 padding: 15px 40px;
             }
 
-        }
-
-
-        @media (max-width: 400px) {
-
-            .section3 {
-                min-height: 200px;
-            }
-
-            .section3 h1 {
-                font-size: 24px;
-            }
-
-            .section3 h3 {
-                font-size: 18px;
-            }
-
-            .section3 a.signup-btn {
-                padding: 15px 40px;
-            }
         }
 
         /* ส่วนสไลด์*/
@@ -444,7 +480,8 @@
             position: relative;
             transform: translate(-50%, -50%);
             margin-top: 270px;
-            margin-left: 520px;
+            /* add */
+            margin-left: 780px;
 
 
         }
@@ -576,13 +613,43 @@
             text-transform: uppercase;
             font-size: 15px;
             text-align: start;
+        }        
+        
+        .container h1 {
+            display: flex;
+            background-color: #FDD741;
+            margin: 20px;
+            border-radius: 40px;
+            font: bold 40px 'Prompt', sans-serif;
+            width: 80%;
+            color: white;
+            text-align: center;
+            justify-content: center;
+            text-align: center;
+            margin: 40px;
+        } 
+        
+        .grid-background {
+            background-color: #f8e183;
+            position: relative;
+            border-radius: 80px;
+            width: 900px;
         }
 
-        @media (max-width:768px) {
+        a.signup-btn {
+            color: black;
+            border-radius: 8px;
+            border: 2px solid black;
+            background-color: #ffd220;
+            font-weight: 800;
+            font-size: 18px;
+            text-align: center;
+            margin-top: 50px;
+            padding: 15px 20px;
+        }
 
-            .container {
-                top: 110%;
-            }
+
+        @media (max-width:768px) {
 
             .grid {
                 margin: 30px;
@@ -604,83 +671,13 @@
                 width: 150px;
                 transition: transform 3s;
             }
-
             .container h1 {
-                background-color: #FDD741;
-                margin: 20px;
-                border-radius: 40px;
-                display: flex;
-                font: bold 25px 'Prompt', sans-serif;
-                margin-bottom: 15px;
-                color: black;
-                text-align: center;
-                justify-content: center;
-                text-align: center;
+                width: 700px;
             }
 
         }
 
-        @media (max-width: 400px) {
-            .grid {
-                grid-template-columns: auto auto auto;
-            }
-
-            .grid>.article {
-                text-align: center;
-            }
-        }
-
-        .container h1 {
-            display: flex;
-            background-color: #FDD741;
-            margin: 20px;
-            border-radius: 40px;
-            font: bold 40px 'Prompt', sans-serif;
-            width: 80%;
-            color: white;
-            text-align: center;
-            justify-content: center;
-            text-align: center;
-            margin: 40px;
-        }
-
-        @media (max-width: 1000px) {
-            .container h1 {
-                background-color: #FDD741;
-                margin: 20px;
-                border-radius: 40px;
-                display: flex;
-                flex-direction: column;
-                font: bold 25px 'Prompt', sans-serif;
-
-                color: black;
-                text-align: center;
-                justify-content: center;
-                text-align: center;
-            }
-        }
-
-        .grid-background {
-            background-color: #f8e183;
-            position: relative;
-            border-radius: 80px;
-            width: 900px;
-        }
-
-        a.signup-btn {
-            color: black;
-            border-radius: 8px;
-            border: 2px solid black;
-            background-color: #ffd220;
-            font-weight: 800;
-            font-size: 18px;
-            text-align: center;
-            margin-top: 50px;
-            padding: 15px 20px;
-        }
-
-
-
+        
         /*-------------
  	    Footer
         -------------*/
@@ -707,14 +704,6 @@
             color: #fff;
         }
 
-        @media (max-width: 1000px) {
-
-            footer {
-                padding: 80px 15px;
-            }
-
-        }
-
         .footerimage {
             display: flex;
             flex-direction: row;
@@ -722,6 +711,225 @@
             text-align: center;
             color: #fff;
             gap: 20px;
+        }
+
+        /* Tik */
+
+        /* header */
+        @media (max-width: 480px) {
+            header {
+                padding: 10px 0px;
+                flex-direction: column;
+            }
+
+            header h2 {
+                margin-bottom: 0px;
+            }
+
+            header nav a {
+                margin: 0px 15px;
+            }
+        }
+
+        /* 1 */
+        @media (max-width: 480px) {
+            .hero {
+                padding-left: 35px;
+            }
+
+            .hero h1 {
+                width: 300px;
+                font-size: 36px;
+                margin-top: 80px;
+            }
+
+            .hero-text h4 {
+                margin-top: 15px;
+                width: 320px;
+            }
+
+            .hero-text h3 {
+                font-size: 20px;
+                width: 320px;
+                margin-top: 20px;
+            }
+
+            .hero a.btn {
+                padding: 5px 0px;
+                color: black;
+                border: 2px solid black;
+                box-shadow: 0px 0px;
+                margin-left: 0px;
+                margin-bottom: 0px;
+            }
+
+            .hero img.here {
+                margin-left: 250px;
+                margin-top: 0px;
+            }
+
+            .hero .background-image {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 95%;
+                background-size: cover;
+                z-index: -1;
+            }
+
+            /* 2 */
+            @media (max-width: 480px) {
+                .description {
+                    margin: 0px 30px;
+                }
+            }
+            /* 3 */
+            @media (max-width: 480px) {
+                .cta {
+                    padding-top: 40px;
+                }
+            }
+
+            /* 4 */
+            @media (max-width: 480px) {
+                .section3 {
+                    height: 450px;
+                }
+
+                .bg-image {
+                    width: 375px;
+                    height: 400px;
+                }
+
+                .bg-image h1 {
+                    font: bold 50px 'Prompt', sans-serif;
+                    margin-bottom: 15px;
+                    width: 350px;
+                    margin-left: 8px;
+                }
+
+                .bg-image h3 {
+                    width: 350px;
+                    margin-left: 8px;
+                    font: normal 16px 'Prompt', sans-serif;
+                    margin-top: 0px;
+
+                }
+            }
+
+            /* ส่วนสไลด */
+            @media (max-width: 480px) {
+                .slidershow {
+                    display: flex;
+                    flex-direction: column;
+                    position: relative;
+                    margin-right: 0px;
+                    width: 350px;
+                    height: 250px;
+                    overflow: hidden;
+                    border: 10px solid white;
+                    border-radius: 25px;
+
+                }
+
+                .middle {
+                    position: relative;
+                    transform: translate(0%, -50%);
+                    margin-top: 150px;
+                    /* add */
+                    margin-left: 5px;
+
+                }
+            }
+
+            /* 5 */
+            @media (max-width: 480px) {
+                .container {
+                    padding-bottom: 50px;
+                }
+
+                .container h1 {
+                    width: 350px;
+                    padding: 10px 10px;
+                    font: bold 21px 'Prompt', sans-serif;
+                    background-color: #FDD741;
+                    margin: 20px;
+                    border-radius: 40px;
+                    text-align: center;
+                    justify-content: center;
+
+                }
+
+                .grid-background {
+                    width: 330px;
+                }
+
+                .grid {
+
+                    margin: 30px;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+
+                }
+
+                .grid>article {
+                    background: white;
+                    border: none;
+                    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0, 3);
+                    border-radius: 20px;
+                    text-align: center;
+                    width: 250px;
+                    height: 320px;
+                    transition: transform 3s;
+                }
+
+                .grid>article:hover {
+                    transform: translateY(5px);
+                    box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0, 3);
+                }
+
+
+                .grid>article img {
+                    width: 100%;
+                    border-top-left-radius: 20px;
+                    border-top-right-radius: 20px;
+                }
+
+                .text {
+                    padding: 0 20px 20px;
+                }
+
+                .text h3 {
+                    text-transform: uppercase;
+                    font-size: 15px;
+                    color: #8a3ab9;
+                    text-align: start;
+                }
+
+                .text p {
+                    text-transform: uppercase;
+                    font-size: 15px;
+                    text-align: start;
+                }
+
+                a.signup-btn {
+                    color: black;
+                    width: 300px;
+                    border-radius: 8px;
+                    border: 2px solid black;
+                    background-color: #ffd220;
+                    font-weight: 800;
+                    font-size: 18px;
+                    text-align: center;
+                    margin-top: 50px;
+                    padding: 15px 20px;
+                }
+            }
+
         }
     </style>
 </head>
@@ -735,10 +943,11 @@
             <h2 style="margin-top: 8px;">Dek-Hor</h2>
         </div>
         <nav>
-            <a href="register1.html" style="margin-top: 8px;">#เด็กหอไม่ง้อตู้เย็น</a>
+            <a href="register.html" style="margin-top: 8px;">#เด็กหอไม่ง้อตู้เย็น</a>
         </nav>
         <nav>
-            <a href="https://www.facebook.com/%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%81%E0%B8%AB%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%87%E0%B9%89%E0%B8%AD%E0%B8%95%E0%B8%B9%E0%B9%89%E0%B9%80%E0%B8%A2%E0%B9%87%E0%B8%99-100996632208760/" style="margin-top: 8px;">Contact us</a>
+            <a href="https://www.facebook.com/%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%81%E0%B8%AB%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%87%E0%B9%89%E0%B8%AD%E0%B8%95%E0%B8%B9%E0%B9%89%E0%B9%80%E0%B8%A2%E0%B9%87%E0%B8%99-100996632208760/"
+                style="margin-top: 8px;">Contact us</a>
         </nav>
     </header>
 
@@ -746,13 +955,15 @@
     <section class="hero">
         <div class="background-image" style="background-image: url(image/background.png);"></div>
         <h1>#เด็กหอไม่ง้อตู้เย็น</h1>
-        <h4 style="width: 550px;"><b>คุณเคยทิ้งอาหารด้วยความเสียดายเพราะหอของคุณไม่มีตู้เย็นไหม?</b> </h4>
-        <h3 style="width: 500px;"><b>จะดีกว่าไหม? ถ้าคุณรู้ "วิธีถนอมอาหาร" ที่ช่วยยืดอายุของอาหารของคุณให้นานนน~ มากขึ้น
-            โดยที่คุณไม่ต้องพึ่งตู้เย็นอีกต่อไป!</b> </h3>
+        <div class="hero-text">
+            <h4><b>คุณเคยทิ้งอาหารด้วยความเสียดายเพราะหอของคุณไม่มีตู้เย็นไหม?</b> </h4>
+            <h3><b>จะดีกว่าไหม? ถ้าคุณรู้ "วิธีถนอมอาหาร" ที่ช่วยยืดอายุของอาหารของคุณให้นานนน~
+                    มากขึ้น
+                    โดยที่คุณไม่ต้องพึ่งตู้เย็นอีกต่อไป!</b> </h3>
+        </div>
         <br>
-        <a href="register1.html" class="btn" style="width:300px; margin-left: 30px;" id="submit"><b>ร่วมกันไม่ง้อตู้เย็นได้</b>  <b
-                style="color:red;">ที่นี่!</b> </a>
-        <img src="icon/tap.png" alt="" width="60px" style="margin-left: 336px;margin-top: -35px;width: 70px;">
+        <a href="register.html" class="btn" id="submit"><b>ร่วมกันไม่ง้อตู้เย็นได้</b> <b style="color:red;">ที่นี่!</b> </a>
+        <img class="here" src="icon/tap.png" alt="" width="60px">
         <ul>
             <li><a
                     href="https://www.facebook.com/%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%81%E0%B8%AB%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%87%E0%B9%89%E0%B8%AD%E0%B8%95%E0%B8%B9%E0%B9%89%E0%B9%80%E0%B8%A2%E0%B9%87%E0%B8%99-100996632208760/"><img
@@ -770,24 +981,31 @@
         </p>
         <br>
         <p>
-            <span style="font-weight: 400;">เป็นแคมเปญเล็กๆ ที่อยากจะเชิญชวนเด็กหอทุกคนร่วมกันติดแฮชแท็ก #เด็กหอไม่ง้อตู้เย็น
-                โดยเปลี่ยนจากการ <i>"ทิ้ง"</i> อาหารที่คุณทานไม่ทัน เป็น <i>"ถนอม"</i> ถนอมอาหารเพื่อยืดอายุการเก็บรักษาอาหาร
-                และลดขยะที่เกิดจากอาหาร  
+            <span style="font-weight: 400;">เป็นแคมเปญเล็กๆ ที่อยากจะเชิญชวนเด็กหอทุกคนให้ไม่ง้อตู้เย็นอีกต่อไป
+                โดยเปลี่ยนจากการ <i>"ทิ้ง"</i> อาหารที่คุณทานไม่ทัน เป็น <i>"ถนอม"</i>
+                ถนอมอาหารเพื่อยืดอายุการเก็บรักษาอาหาร
+                และลดขยะที่เกิดจากอาหาร
             </span>
         </p><br>
         <p>
             <span style="font-weight: 400;">
-                ทราบหรือไม่ว่า... ในแต่ละปีมีคนทั่วโลกกว่า 36 ล้านคน ต้องเสียชีวิตเพราะความหิวโหย ซึ่งที่มาของปัญหานี้เกิดจากการที่ 1 ใน 3 ของอาหารที่ผลิตได้จะกลายเป็น 
-                “ขยะอาหาร” กรมควบคุมมลพิษเผยว่าในปี 2560 พบว่า 64% ของขยะที่เกิดขึ้นในประเทศไทยเป็นขยะอินทรีย์ คิดเป็นปริมาณรวม 17.6 ล้านตัน 
-                หรือเทียบเท่ากับเครื่องบินโดยสารลำใหญ่จำนวน 63,000 ลำ ซึ่งขยะอินทรีย์บางส่วนเป็นขยะจากอาหาร และไม่ใช่แค่เศษอาหารเหลือทิ้งเท่านั้น 
-                บางส่วนยังเป็นอาหารส่วนเกินที่ต้องทิ้งเพราะกินไม่ทัน ขายไม่ทัน หรือคิดว่าหมดอายุ ทั้งที่จริง ๆ แล้วยังสามารถรับประทานได้และควรนำไปให้แก่ผู้หิวโหยที่กำลังอดอยาก
+                ทราบหรือไม่ว่า... ในแต่ละปีมีคนทั่วโลกกว่า 36 ล้านคน ต้องเสียชีวิตเพราะความหิวโหย
+                ซึ่งที่มาของปัญหานี้เกิดจากการที่ 1 ใน 3 ของอาหารที่ผลิตได้จะกลายเป็น
+                “ขยะอาหาร” กรมควบคุมมลพิษเผยว่าในปี 2560 พบว่า 64% ของขยะที่เกิดขึ้นในประเทศไทยเป็นขยะอินทรีย์
+                คิดเป็นปริมาณรวม 17.6 ล้านตัน
+                หรือเทียบเท่ากับเครื่องบินโดยสารลำใหญ่จำนวน 63,000 ลำ ซึ่งขยะอินทรีย์บางส่วนเป็นขยะจากอาหาร
+                และไม่ใช่แค่เศษอาหารเหลือทิ้งเท่านั้น
+                บางส่วนยังเป็นอาหารส่วนเกินที่ต้องทิ้งเพราะกินไม่ทัน ขายไม่ทัน หรือคิดว่าหมดอายุ ทั้งที่จริง ๆ
+                แล้วยังสามารถรับประทานได้และควรนำไปให้แก่ผู้หิวโหยที่กำลังอดอยาก
             </span>
         </p><br>
 
         <p>
-                เราได้ตระหนักถึงปัญหาดังกล่าว จึงจัดตั้งแคมเปญเล็ก ๆ ชื่อว่า #เด็กหอไม่ง้อตู้เย็น
-                เพื่อรณรงค์ให้ทุกคนลดการทิ้งขยะอาหารที่ยังสามารถทานได้อยู่ และเป็นส่วนหนึ่งในการแก้ปัญหา Zero Hunger หรือการขจัดความหิวโหย
-                โดยมีเป้าหมายเพื่อการพัฒนาที่ยั่งยืน คุณอย่าลืมว่า...ทุกครั้งที่คุณทิ้งอาหาร ยังมีคนอีกมากมายที่ต้องอาหารที่คุณทิ้ง
+            เราได้ตระหนักถึงปัญหาดังกล่าว จึงจัดตั้งแคมเปญเล็ก ๆ ชื่อว่า #เด็กหอไม่ง้อตู้เย็น
+            เพื่อรณรงค์ให้ทุกคนลดการทิ้งขยะอาหารที่ยังสามารถทานได้อยู่ และเป็นส่วนหนึ่งในการแก้ปัญหา Zero Hunger
+            หรือการขจัดความหิวโหย
+            โดยมีเป้าหมายเพื่อการพัฒนาที่ยั่งยืน คุณอย่าลืมว่า...ทุกครั้งที่คุณทิ้งอาหาร
+            ยังมีคนอีกมากมายที่ต้องอาหารที่คุณทิ้ง
         </p>
     </div>
 
@@ -808,56 +1026,55 @@
                 <p>คุณสามารถเป็นส่วนเล็กๆ
                     ในการลดขยะที่เกิดจากเศษอาหารด้วยวิธีการถนอมอาหารที่แสนจะง่ายที่คุณสามารถทำได้ด้วยตัวเอง
                     กดเข้าร่วมแคมเปญได้ตรงนี้เลยค่ะ</p>
-                <a class="spam-button" href="register1.html" id="submit1">เข้าร่วมแคมเปญ</a>
+                <a class="spam-button" href="register.html" id="submit1">เข้าร่วมแคมเปญ</a>
             </div>
         </div>
     </div>
 
     <!-- 4 -->
-    <section class="section3" style="padding-bottom: 0px; height: 740px;">
-        <div class="bg-image" style="width: 1012px;">
+    <section class="section3">
+        <div class="bg-image">
             <h1 style="margin-bottom: 0px;">เปลี่ยนจาก<span style="color: red; font-size: 40px;">ทิ้ง</span>เป็น<span
                     style="color: red; font-size: 80px;">ถนอม</span></h1>
             <h3>วิธีการถนอมอาหารง่าย ๆ ที่คุณทำได้ด้วยตัวเอง</h3>
-        <div class="slidershow middle">
+            <div class="slidershow middle">
 
-            <div class="slides">
-                <input type="radio" name="r" id="r1" checked>
-                <input type="radio" name="r" id="r2">
-                <input type="radio" name="r" id="r3">
-                <input type="radio" name="r" id="r4">
-                <input type="radio" name="r" id="r5">
-                <div class="slide s1">
-                    <img src="image/veggi.jpg" alt="">
+                <div class="slides">
+                    <input type="radio" name="r" id="r1" checked>
+                    <input type="radio" name="r" id="r2">
+                    <input type="radio" name="r" id="r3">
+                    <input type="radio" name="r" id="r4">
+                    <input type="radio" name="r" id="r5">
+                    <div class="slide s1">
+                        <img src="image/veggi.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="image/bread.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="image/egg.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="image/fruit.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="image/meat.jpg" alt="">
+                    </div>
                 </div>
-                <div class="slide">
-                    <img src="image/bread.jpg" alt="">
-                </div>
-                <div class="slide">
-                    <img src="image/egg.jpg" alt="">
-                </div>
-                <div class="slide">
-                    <img src="image/fruit.jpg" alt="">
-                </div>
-                <div class="slide">
-                    <img src="image/meat.jpg" alt="">
+
+                <div class="navigation">
+                    <label for="r1" class="bar"></label>
+                    <label for="r2" class="bar"></label>
+                    <label for="r3" class="bar"></label>
+                    <label for="r4" class="bar"></label>
+                    <label for="r5" class="bar"></label>
+                    <label for="r6" class="bar"></label>
                 </div>
             </div>
 
-            <div class="navigation">
-                <label for="r1" class="bar"></label>
-                <label for="r2" class="bar"></label>
-                <label for="r3" class="bar"></label>
-                <label for="r4" class="bar"></label>
-                <label for="r5" class="bar"></label>
-                <label for="r6" class="bar"></label>
-            </div>
-        </div>
-    
-        
+
     </section>
 
-    <br><br>
 
     <section class="container" style="padding-top: 0px;">
         <h1>ร่วมแชร์วิธีถนอมอาหารสไตล์คุณ</h1>
@@ -892,7 +1109,7 @@
                 </article>
             </main>
         </div>
-        <a href="register1.html" class="signup-btn" id="submit2">แชร์การถนอมอาหารของคุณ</a>
+        <a href="register.html" class="signup-btn" id="submit2">แชร์การถนอมอาหารของคุณ</a>
     </section>
 
     <footer>
