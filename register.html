@@ -128,26 +128,6 @@
             text-align: center;
         }
 
-        @media (max-width: 768px) {
-            .yellow_space {
-                width: 100%;
-                object-fit: cover;
-            }
-
-            .yellow_space img {
-                height: 50px;
-            }
-
-            .yellow-text {
-                font-size: 25px;
-                text-align: center;
-
-            }
-            .copy img {
-            margin-top: 30px;
-        }
-        }
-
         .copy h2 {
             font-size: 1.5rem;
             font-weight: 700;
@@ -300,7 +280,7 @@
             font-family: 'Prompt', sans-serif;
         }
 
-        /* ford เพิ่ม */
+        /* ford iPad */
 
         @media screen and (min-width:768px) {
             .split-screen {
@@ -342,10 +322,44 @@
 
             .copy img {
                 width: 400px;
-                margin-left: 10px;
+    
+            }
+        }
+
+        @media (max-width: 768px) {
+            .yellow_space {
+                width: 100%;
+                object-fit: cover;
+
+
             }
 
+            .yellow_space img {
+                height: 70px;
+            }
+
+            .copy img {
+            margin-top: 30px;
         }
+        }
+
+        /* Tik add */
+            @media (max-width: 1024px) {
+                .copy img {
+                    margin-left: 0px;
+                }
+                .yellow_space h2 {
+                font: bold 50px Prompt ;
+                color: black;
+                text-align: center;
+                width: 600px;
+                }
+
+                .yellow_space {
+                gap: 5px;
+            }
+            }
+
         /* Tik */
                 /* header */
                 @media (max-width: 480px) {
@@ -369,7 +383,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                color: black;
+                color: #fff;
                 gap: 10px;
                 padding: 150px 20px 20px;
                 background-color: #FDD741;
@@ -384,13 +398,13 @@
 
             }
             .copy img {
-                width: 250px;
+                width: 200px;
                 margin-left: 0px;
-                margin-top: 150px;
+                margin-top: 100px;
                 margin-bottom: 20px;
             }
             .right {
-                margin-top: 350px;
+                margin-top: 500px;
             }
             .left {
                 margin-top: 0px;

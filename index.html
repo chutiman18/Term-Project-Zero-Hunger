@@ -84,6 +84,7 @@
         header h2 {
             font-family: Prompt;
             margin-left: 5px;
+            margin-top: 8px;
         }
 
         header nav {
@@ -149,7 +150,7 @@
         .hero {
             position: relative;
             justify-content: center;
-            min-height: 100vh;
+            height: 900px;
             /* Tik add */
             gap: 0px;
             color: black;
@@ -199,40 +200,6 @@
         .hero img.here {
             margin-left: 336px;
             margin-top: -35px;
-        }
-
-        @media (max-width: 768px) {
-            html {
-                width: 100vw;
-                overflow-x: hidden;
-            }
-
-            .hero {
-                width: 100%;
-                margin: 0 auto;
-                position: relative;
-                overflow: hidden;
-            }
-
-            .hero h1 {
-                font-size: 36px;
-            }
-
-            .hero h3 {
-                font-size: 20px;
-            }
-
-            .hero a.btn {
-                padding: 15px 40px;
-            }
-
-            .hero .background-image {
-                background-position: center;
-                background-size: cover;
-                width: 100%;
-                height: 100%;
-
-            }
         }
 
         /*-------------
@@ -413,7 +380,6 @@
         .section3 {
             display: flex;
             justify-content: flex-start;
-            min-height: 70vh;
             color: black;
             text-align: center;
             align-items: center;
@@ -435,31 +401,6 @@
 
         .section3 a.signup-btn {
             padding: 20px 46px;
-        }
-
-        @media (max-width: 768px) {
-            section {
-                display: flex;
-                flex-direction: column;
-
-            }
-
-            .section3 {
-                min-height: 600px;
-            }
-
-            .section3 h1 {
-                font-size: 36px;
-            }
-
-            .section3 h3 {
-                font-size: 20px;
-            }
-
-            .section3 a.signup-btn {
-                padding: 15px 40px;
-            }
-
         }
 
         /* ส่วนสไลด์*/
@@ -613,8 +554,8 @@
             text-transform: uppercase;
             font-size: 15px;
             text-align: start;
-        }        
-        
+        }
+
         .container h1 {
             display: flex;
             background-color: #FDD741;
@@ -627,8 +568,8 @@
             justify-content: center;
             text-align: center;
             margin: 40px;
-        } 
-        
+        }
+
         .grid-background {
             background-color: #f8e183;
             position: relative;
@@ -648,36 +589,6 @@
             padding: 15px 20px;
         }
 
-
-        @media (max-width:768px) {
-
-            .grid {
-                margin: 30px;
-                padding: 30px;
-                display: grid;
-                grid-template-columns: auto auto auto;
-                grid-gap: 30px;
-                align-items: center;
-                justify-content: center;
-            }
-
-            .grid>article {
-                background: white;
-                border: none;
-                box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0, 3);
-                border-radius: 20px;
-                text-align: center;
-                top: 100%;
-                width: 150px;
-                transition: transform 3s;
-            }
-            .container h1 {
-                width: 700px;
-            }
-
-        }
-
-        
         /*-------------
  	    Footer
         -------------*/
@@ -713,7 +624,145 @@
             gap: 20px;
         }
 
-        /* Tik */
+        /* Ford iPad */
+
+        @media (max-width: 1366px) {
+            html {
+                overflow-x: hidden;
+            }
+        }
+
+        @media (max-width: 800px) {
+            .hero {
+                width: 100%;
+                margin: 0 auto;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero h3 {
+                font-size: 20px;
+            }
+
+            .hero a.btn {
+                padding: 15px 40px;
+            }
+
+            .hero .background-image {
+                background-position: center;
+                background-size: cover;
+                width: 100%;
+                height: 100%;
+
+            }
+        }
+
+        @media (max-width: 800px) {
+            section {
+                display: flex;
+                flex-direction: column;
+
+            }
+
+            .section3 {
+                height: 600px;
+            }
+
+            .section3 h1 {
+                font-size: 36px;
+            }
+
+            .section3 h3 {
+                font-size: 20px;
+            }
+
+            .section3 a.signup-btn {
+                padding: 15px 40px;
+            }
+
+        }
+
+        @media (max-width:800px) {
+
+            .grid {
+                margin: 30px;
+                padding: 30px;
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-gap: 30px;
+                align-items: center;
+                justify-content: center;
+            }
+            .grid-background {
+                    width: 700px;
+                }
+
+            .grid>article {
+                background: white;
+                border: none;
+                box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0, 3);
+                border-radius: 20px;
+                text-align: center;
+                top: 100%;
+                width: 150px;
+                transition: transform 3s;
+            }
+            .container {
+                margin-top: 150px;
+            }
+            .container h1 {
+                width: 700px;
+            }
+        }
+
+        /* Tik add */
+        @media (max-width: 1024px) {
+            /* header */
+            header {
+                padding: 20px 30px;
+
+            }
+
+            header h2 {
+                margin-bottom: 0px;
+                font-size: 30px;
+                margin-top: 4px;
+            }
+
+            header nav a {
+                margin: 0px 15px;
+                font-size: 20px;
+            }
+
+            /* 1 */
+            .hero .background-image {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 830px;
+                background-size: cover;
+
+            }
+            .hero {
+                padding: 0px 100px;
+                display: flex;
+                justify-content: flex-start;
+                height: 850px;
+                
+            }
+
+            .hero h1 {
+                margin-top: 280px;
+            }
+        }
+
+
+        /* Tik iPhone*/
 
         /* header */
         @media (max-width: 480px) {
@@ -735,6 +784,7 @@
         @media (max-width: 480px) {
             .hero {
                 padding-left: 35px;
+                padding-top: 150px;
             }
 
             .hero h1 {
@@ -784,6 +834,7 @@
                     margin: 0px 30px;
                 }
             }
+
             /* 3 */
             @media (max-width: 480px) {
                 .cta {
@@ -941,7 +992,7 @@
 
         <div class="header-img">
             <img src="icon/Logo.png" alt="" height="50">
-            <h2 style="margin-top: 8px;">Dek-Hor</h2>
+            <h2>Dek-Hor</h2>
         </div>
         <nav>
             <a href="register.html" style="margin-top: 8px;">#เด็กหอไม่ง้อตู้เย็น</a>
@@ -963,7 +1014,8 @@
                     โดยที่คุณไม่ต้องพึ่งตู้เย็นอีกต่อไป!</b> </h3>
         </div>
         <br>
-        <a href="register.html" class="btn" id="submit"><b>ร่วมกันไม่ง้อตู้เย็นได้</b> <b style="color:red;">ที่นี่!</b> </a>
+        <a href="register.html" class="btn" id="submit"><b>ร่วมกันไม่ง้อตู้เย็นได้</b> <b style="color:red;">ที่นี่!</b>
+        </a>
         <img class="here" src="icon/tap.png" alt="" width="60px">
         <ul>
             <li><a
@@ -982,7 +1034,8 @@
         </p>
         <br>
         <p>
-            <span style="font-weight: 400;">เป็นแคมเปญเล็กๆ ที่อยากจะเชิญชวนให้เด็กหอทุกคนร่วมกันติดแฮชแท็ก #เด็กหอไม่ง้อตู้เย็น
+            <span style="font-weight: 400;">เป็นแคมเปญเล็กๆ ที่อยากจะเชิญชวนให้เด็กหอทุกคนร่วมกันติดแฮชแท็ก
+                #เด็กหอไม่ง้อตู้เย็น
                 และเปลี่ยนจากการ <i>"ทิ้ง"</i> อาหารที่คุณทานไม่ทัน เป็น <i>"ถนอม"</i>
                 ถนอมอาหารเพื่อยืดอายุการเก็บรักษา
                 และลดขยะที่เกิดจากอาหาร
